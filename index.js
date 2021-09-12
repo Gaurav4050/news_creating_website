@@ -1,4 +1,4 @@
-//c324f145031f42e78c84ffa317e586b7
+//c324f145031f4
 
 console.log("my name is gaurav")
 
@@ -11,7 +11,7 @@ const xhr = new XMLHttpRequest();
 
 
 xhr.open('GET', `
-https://newsapi.org/v2/everything?domains=wsj.com&apiKey=c324f145031f42e78c84ffa317e586b7`, true);
+https://newsapi.org/v2/everything?domains=wsj.com&apiKey=c324f145031f4`, true);
 
 xhr.onload = function () {
     if (this.status == 200) {
